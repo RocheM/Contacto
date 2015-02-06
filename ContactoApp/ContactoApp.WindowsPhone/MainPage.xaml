@@ -9,6 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+    	<Grid HorizontalAlignment="Left" Height="60" Margin="10,0,0,0" VerticalAlignment="Top" Width="390" Background="#FFEA0606">
+    		<Button Content="Button" HorizontalAlignment="Left" Margin="-17,-10,0,-9" VerticalAlignment="Top" Height="79">
+    			<Button.Background>
+    				<ImageBrush Stretch="Fill" ImageSource="Assets/Logo.png"/>
+    			</Button.Background>
+    		</Button>
+    		<Button Content="Button" HorizontalAlignment="Left" Margin="92,-10,0,-9" VerticalAlignment="Top" Height="79" Width="82"/>
+    		<Button Content="Button" HorizontalAlignment="Left" Margin="201,-10,0,-9" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="79" Width="98"/>
+    		<Button Content="Button" HorizontalAlignment="Left" Margin="310,-10,-39,-9" VerticalAlignment="Top" Height="79" Width="53"/>
+    	</Grid>
     </Grid>
 </Page>
